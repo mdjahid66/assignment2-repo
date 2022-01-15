@@ -186,12 +186,15 @@ hr{
     color: #E02C6DDE;
     font-size: 18px;
     font-weight: bold;
+    float: right;
+    text-align: right;
     
     
 }
 #see-more{
     text-decoration: none;
     color: #E02C6DDE;
+    
 }
 
 /* popular collection style end */
