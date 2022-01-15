@@ -49,11 +49,20 @@ nav{
 /*----- nav style end----- */
 
 /*------ influencer style start-------- */
-.influencer-container{
-    display: flex;
-    margin: 80px;
-    padding-left: 30px;
+.container{
+    padding: 0 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+.influencer-container {
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin: 30px;
+  }
+
 .influencer-details{
     padding-right: 100px;
     
@@ -117,7 +126,9 @@ hr{
 
 /* popular collection style start */
 .collection-container{
-    margin-left: 40px;
+    padding: 0 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .collection-title{
     text-align: center;
@@ -132,18 +143,16 @@ hr{
     /* margin: 0 auto; */
 }
 .collection{
-    width: 75%;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 4px;
-    padding-bottom: 5px;
-    box-shadow: 1px 0px 25px -9px #AAAAAA;
-    margin: 30px;
-    border-radius: 10px;
-    
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    line-height: 2;
+    border-radius: 5px;
+    padding: 10px;
 }
 .thumbnail img{
-    width: 300px;
+    width: 100%;
 }
 .collection-names{
     font-weight: 500;
@@ -186,9 +195,8 @@ hr{
     color: #E02C6DDE;
     font-size: 18px;
     font-weight: bold;
-    float: right;
     text-align: right;
-    
+    margin: 20px;
     
 }
 #see-more{
@@ -240,5 +248,4 @@ hr{
     cursor: pointer;
     display: block;
 }
-
 
