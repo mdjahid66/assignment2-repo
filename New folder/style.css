@@ -138,7 +138,7 @@ nav {
   font-weight: 500;
   font-size: 28px;
   margin-top: 1px;
-  margin-bottom: -10px;
+  margin-bottom: -28px;
   color: #18191f;
 }
 .collection-para {
@@ -164,7 +164,7 @@ nav {
 .star {
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
 }
 .rating {
   color: #5e6366;
@@ -188,8 +188,8 @@ nav {
 .feedback-container {
   width: 90%;
   margin: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,8 +202,6 @@ nav {
 }
 .form-title {
   font-size: 40px;
-  padding-left: 50px;
-  margin-bottom: 20px;
 }
 .feedback-form {
   display: flex;
@@ -218,12 +216,11 @@ textarea {
 }
 .feedback-form .send-message {
   width: 50%;
-  font-weight: 600;
 }
 .btn {
   border-radius: 20px;
   color: #fff;
-  margin-top: 2px;
+  margin-top: 18px;
   padding: 10px;
   background-color: #e02c6d;
   font-size: 12px;
@@ -231,7 +228,6 @@ textarea {
   cursor: pointer;
   display: block;
 }
-/* own creation  end*/
 
 /* Footer Style */
 * {
@@ -277,7 +273,6 @@ footer p {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    
   }
   .influencer-container {
     width: 100%;
