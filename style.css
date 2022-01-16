@@ -241,10 +241,7 @@ footer p {
 /* footer end */
 
 @media only screen and (max-width: 660px) {
-  main{
-    margin-left: 2%;
-
-  }
+ 
   .collections {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
